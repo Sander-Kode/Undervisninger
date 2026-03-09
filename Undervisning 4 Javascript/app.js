@@ -1,5 +1,4 @@
 const myButton = document.getElementById("myButton");
-const myText = document.getElementById("myText");
 const fruitText = document.querySelectorAll
 const fruits = [
     {
