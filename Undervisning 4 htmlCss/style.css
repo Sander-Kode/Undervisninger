@@ -1,0 +1,17 @@
+input{
+    width: 80%;
+    /* margin-top: 10px; */
+}
+
+input [type=search]{
+    color: red;
+    background-color: red;
+}
+
+
+/* Endrer slik at bruker ikke selv kan justere størrelsen på inputboxen */
+textarea{
+    resize: none;
+    height: 100px;
+    width: 300px;
+}

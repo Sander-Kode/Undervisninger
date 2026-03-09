@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undervisning 4</title>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+
+        <form action="">
+
+            <!-- readonly, bruker kan kun lese -->
+            <label>First name</label>
+            <input type="text" name="" id="" value="Enter first name" readonly><br></br>
+
+            <!-- disabled, hindrer også bruker i å skrive noe i feltet. Dette gir også en synlig forskjell -->
+            <label>Last name</label>
+            <input type="text" name="" id="" value="Enter last name" disabled> <br></br>
+
+            <label>Enter email</label>
+            <input type="text" name="" id="" placeholder="Enter email adress"><br></br>
+        </form>
+
+
+
+        <!-- Different type of buttons and their uses -->
+        <div class="search">
+            <label for=""></label>
+            <input type="search" name="" id="">
+            <input type="submit" value="submit">
+            <input type="button" value="Next">
+            <input type="button" value="Previous">
+            <input type="reset" value="Clear content">
+
+            
+            <!-- standard button  -->
+            <button>Click me</button> 
+        </div>
+
+
+
+        <!-- inputfield for larger texts from users, holds 10 rows as standard-->
+         <form action="">
+        <div>
+            <label for="">FeedBack</label>
+            <textarea name="" id="" placeholder="Write your valuable feedback!"></textarea>
+            <button>Submit</button>
+        </div>
+
+        
+        <!-- Selection felt hvor bruker kan velge mellom flere alternativer -->
+        <label for="">Select country</label>
+        <select name="country" id="country">
+
+            <!-- Her bestemmer jeg hva jeg vil at skal displayes som en "placeholder" som bruker ikke kan benytte  -->
+            <option value="" disabled selected>--Choose from below--</option>
+            <option value="">Norway</option>
+            <option value="">Sweden</option>
+            <option value="">Denmark</option>
+            <option value="">Finland</option>
+            <option value="">Germany</option>
+
+        </select><br></br>
+
+        <!-- Mulighet for bruker til å velge farger. Kan også benyttes via javascript for å endre farge på elementer -->
+        <label for="">Choose your color</label>
+        <input type="color" name="" id="">
+
+        </form> <br></br>
+
+
+        <form action="">
+            <label for="">Birthday</label>
+            <input type="date" name="" id="" max="2026-12-31" min="2026-01-01">
+        </form>
+
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
