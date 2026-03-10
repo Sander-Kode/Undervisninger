@@ -20,9 +20,7 @@ const container = document.createElement("section");
 container.classList.add("fruit-list");
 document.body.appendChild(container);
 
-
-    
-    
+ 
 function renderFruits() {
     for(let fruit of fruits) {
         
@@ -40,14 +38,10 @@ function renderFruits() {
 }
 
 
-
-
 function greeting() {
     myText.textContent = "Hello!";
     
 }
-
-
 
 myButton.addEventListener("click", greeting);
 
